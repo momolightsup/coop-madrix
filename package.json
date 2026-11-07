@@ -1,0 +1,22 @@
+{
+  "name": "madrix-light-studio",
+  "version": "1.0.0",
+  "description": "MADRIX Light Studio - Patch-Aware Generative Lighting Animation Designer",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build"
+  },
+  "keywords": [
+    "madrix",
+    "lighting-design",
+    "led-facade",
+    "generative-animation",
+    "architectural-lighting"
+  ],
+  "author": "MADRIX Light Studio Team",
+  "license": "ISC"
+}
